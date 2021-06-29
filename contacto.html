@@ -69,14 +69,14 @@
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4">
                     <label for="validationCustom01" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" placeholder="Nombre" id="validationCustom01" value="" required>
+                    <input type="text" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
                     <label for="validationCustom02" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" placeholder="Apellido" id="validationCustom02" value="" required>
+                    <input type="text" class="form-control" id="validationCustom02" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
@@ -84,7 +84,7 @@
                 <div class="col-md-4">
                     <label for="validationCustomImage" class="form-label">Email</label>
                     <div class="input-group has-validation">
-                        <input type="email" class="form-control" placeholder="email@email.com" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                         <div class="invalid-feedback">
                             Please choose a username.
                         </div>
@@ -105,9 +105,17 @@
                     <label for="floatingTextarea2">Consulta</label>
                 </div>
 
-                <label for="customRange2" class="form-label">Elija horario para ser contactado (9-17hs)</label>
-                <input type="range" class="form-range" min="0" max="8" id="customRange2">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Elija el horario de contacto</option>
+                    <option value="1">9-10hs</option>
+                    <option value="2">10-11hs</option>
+                    <option value="4">11-12hs</option>
+                    <option value="5">12-13hs</option>
+                    <option value="6">13-14hs</option>
+                    <option value="7">14-15hs</option>
+                    <option value="8">15-16hs</option>
 
+                  </select>
         </div>
 
 
