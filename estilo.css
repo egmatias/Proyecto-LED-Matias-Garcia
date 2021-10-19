@@ -19,6 +19,13 @@
 }
 
 .banner-video {
+    background-image: url(imagenes/banner-index.jpg);
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+}
+.banner-video-trabajo {
     background-image: url(imagenes/background-01.jpg);
     padding: 200px 0;
     position: relative;
@@ -27,6 +34,11 @@
 }
 
 .banner-video img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.banner-video-trabajo img {
     width: 80px;
     height: 80px;
     position: relative;
@@ -54,6 +66,7 @@ footer {
     text-align: center;
     margin-top: 50px;
     height: 200px;
+    width:100%
 }
 
 .iconos-redes {
@@ -66,4 +79,30 @@ footer {
     font-size: 10px;
     padding-right: 90px;
     padding-top: 30px;
+}
+
+.kc_fab_main_btn {
+    background-color: #F44336;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #F44336;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.img-fluid {
+    width: fit-content;
+    height: 500px;
+
+
+}
+
+.h1-titulo{
+    text-align: center;
 }
